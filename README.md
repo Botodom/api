@@ -9,7 +9,7 @@ This is a API made for the __Botodom__ project.
 * Eligibility submissions
 * Homework Management
 
-*This feaftures will be implemented in a future app*
+*This features will be implemented in a future app*
 
 ## Run the project
 
