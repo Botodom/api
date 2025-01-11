@@ -1,6 +1,5 @@
 ![logo](https://cloud-4pkcyuheh-hack-club-bot.vercel.app/0design_sem_nome__2_.png)
 
-
 # Botodom API
 
 This is a API made for the __Botodom__ project.
@@ -12,7 +11,7 @@ This is a API made for the __Botodom__ project.
 
 *This feaftures will be implemented in a future app*
 
-### Run the project
+## Run the project
 
 `pip install -r requirements.txt`
 
