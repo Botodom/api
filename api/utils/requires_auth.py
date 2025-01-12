@@ -28,8 +28,7 @@ def verify_token(token: str, route: str) -> bool:
         account = appwrite.account.get()
         if account["emailVerification"] == True:
             return True
-        if account["emailVerification"] == False and route == "/v1/eligibility":
-            return True
+
     except AppwriteException:
         return False
     except:

@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
 from routes import homework
-from routes import eligibility
+
 from exceptions.exceptions import BotodomApiError, BadRequest, NotFound
 from exceptions.handlers import create_exception_handler
 from fastapi import Request, status
@@ -49,4 +49,4 @@ app.add_exception_handler(
 )
 
 app.include_router(homework.router)
-app.include_router(eligibility.router)
+
