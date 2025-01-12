@@ -34,7 +34,7 @@ async def verify_account(request: Request):
         try:
             verification = client.account.update_verification(user_id, secret)
         except AppwriteException as e:
-            print(e.type)
+            #print(e.type)
             return {"message": f"Account already verified or invalid token"}
         return {"message": f"Account verified successfully"}
     except Exception as e:
