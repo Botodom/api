@@ -6,7 +6,7 @@ from exceptions.exceptions import BotodomApiError, BadRequest, NotFound
 from exceptions.handlers import create_exception_handler
 from fastapi import Request, status
 from typing import Callable
-
+from routes import verification
 
 
 
@@ -49,4 +49,5 @@ app.add_exception_handler(
 )
 
 app.include_router(homework.router)
+app.include_router(verification.router)
 
